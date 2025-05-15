@@ -1,0 +1,61 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header styling */
+header {
+    background-color: #0073e6;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Navigation bar styling */
+nav {
+    background-color: #005bb5;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main content styling */
+main {
+    padding: 40px;
+    background-color: white;
+    max-width: 900px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer styling */
+footer {
+    background-color: #ddd;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.9em;
+    color: #555;
+}
